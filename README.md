@@ -1,10 +1,13 @@
 # Polarbear
 Polarbear translates between different single-cell data modalities
 
+![This is an image](https://noble.gs.washington.edu/~ranz0/Polarbear/polarbear_schematic_v2.png)
+
+
 install polarbear conda environment
 
 ```
-conda env create -f environment.yml
+conda env create -f environment_polarbear.yml
 conda activate polarbear
 ```
 
@@ -24,4 +27,4 @@ bash run_polarbear.sh babel coassay
 bash run_polarbear.sh random coassay
 ```
 
-Reference: [https://doi.org/10.1101/2021.11.18.467517](https://doi.org/10.1101/2021.11.18.467517)
+Reference: Ran Zhang, Laetitia Meng-Papaxanthos, Jean-Philippe Vert, William Stafford Noble. [Semi-supervised single-cell cross-modality translation using Polarbear](https://doi.org/10.1101/2021.11.18.467517)
