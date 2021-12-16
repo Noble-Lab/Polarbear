@@ -10,8 +10,8 @@ train_test_split=$1 # train/val/test split: "babel" or "random"
 semi_version=$2 # only use co-assay to train "coassay" or also include single-assay data "semi"
 if [ "$semi_version" == "semi" ]
 then
-	path_x_single=${data_dir}/data/adultbrainfull50_rna_outer_single.mtx
-	path_y_single=${data_dir}/data/adultbrainfull50_atac_outer_single.mtx
+	path_x_single=${data_dir}/adultbrainfull50_rna_outer_single.mtx
+	path_y_single=${data_dir}/adultbrainfull50_atac_outer_single.mtx
 else
 	path_x_single=nornasingle
 	path_y_single=noatacsingle
